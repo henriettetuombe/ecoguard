@@ -13,7 +13,7 @@ html {
 
 body {
     background-color: #ffffff;
-    min-height: 200vh;
+    min-height: 400vh;
 }
 
 #header-slide {
@@ -147,3 +147,120 @@ li, a:hover {
     font-size: 14px;
     color: #000000;
 }
+
+#image-section {
+    height: 20rem;
+    background: url(./img/plant4.jpg);
+    background-position: 45% 48%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0.7rem #0ca04a solid;
+    border-bottom: 0.7rem #0ca04a solid;
+    margin-top: 3rem;
+    padding: 2rem 12%;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.innertext {
+    color: #0ca04a;
+}
+
+.hr-rule hr {
+    margin-top: 3rem;
+    text-align: center;
+    border: 1.4px solid #c0b5b5;
+}
+
+#newsletter-section h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+form input {
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 15px;
+    border: #0ca04a 1px solid;
+    border-radius: 4px;
+}
+
+.field-input input {
+    padding: 0.5rem 0.7rem 0.5rem 0.9rem;
+    /* width: 100%; */
+}
+
+#input-btn input {
+    font-size: 16px;
+    padding: 0.5rem 5rem;
+    color: #ffffff;
+    background-color: #0ca04a;
+    cursor: pointer;
+}
+
+#input-btn input:hover {
+    color: #000000;
+    transition: color 0.2s;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+    border-top: 0.5rem #0ca04a solid;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 1rem;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item h2 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.footer-item p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-item p a:hover {
+    color: #0ca04a;
+    transition: color 0.2s;
+}
+
+.footer-undertexts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.footer-undertexts p {
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+.footer-undertexts p a:hover {
+    color: #0ca04a;
+    transition: color 0.2s;
+}
+
+
